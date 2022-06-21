@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 function Button3() {
   return (
     <>
-      <h1 id="result3">0</h1>
-      <button onclick="plusNumber3()">Plus3</button>
+      <p>계속 학습하시겠습니까?</p>
+      <button>yes~</button>
     </>
   );
 }
