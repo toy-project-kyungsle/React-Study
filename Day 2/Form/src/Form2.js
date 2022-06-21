@@ -4,9 +4,11 @@ function Form2() {
   const onClick = () => {
     alert("im clicked!");
   };
+
   const onSubmit = () => {
     alert("im submitted");
   };
+
   return (
     <>
       <form className="form2" onSubmit={onSubmit}>
