@@ -1,0 +1,47 @@
+.wrapper-bg,
+.A,
+.C,
+
+.B-id,
+.B-pw {
+    display: flex;
+    justify-content: center;
+}
+
+.A {
+    margin: 20px;
+}
+
+.B-id,
+.B-pw {
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.id_text,
+.pw_text {
+    margin-right: 10px;
+}
+
+input{
+    background-color: lightsalmon;
+    border: none;
+    border-bottom: 1px solid;
+    border-color: black;
+}
+
+.wrapper,
+.login-message,
+.B {
+    justify-content: center;
+}
+
+.C {
+    justify-content: end;
+}
+
+.login-button {
+    border-radius: 7px;
+    border-style: none;
+    background-color: lightgoldenrodyellow;
+}
