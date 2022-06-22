@@ -1,0 +1,14 @@
+.button_bg {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 50px;
+}
+
+.button_A,
+.button_B {
+    background-color: white;
+    border: none;
+    padding: 20px;
+}

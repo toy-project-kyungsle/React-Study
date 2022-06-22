@@ -1,0 +1,15 @@
+.main_A {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+img {
+    width: 30%;
+}
+
+.main_C {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}

@@ -1,3 +1,7 @@
+.wrapper {
+    width: 80%;
+}
+
 .A {
     display: flex;
     justify-content: flex-end;
@@ -14,9 +18,10 @@
 
 .B_left {
     padding-right: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     border-right: 1px solid;
+    width: 40%;
 }
 
 .B_button_bg {
