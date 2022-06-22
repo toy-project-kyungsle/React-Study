@@ -1,0 +1,47 @@
+.A {
+    display: flex;
+    justify-content: flex-end;
+}
+.A_button {
+    border-style: none;
+    background-color: white;
+}
+
+.B {
+    display: flex;
+    background-color: aliceblue;
+}
+
+.B_left {
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-right: 1px solid;
+}
+
+.B_button_bg {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.B_button {
+    border-style: none;
+    background-color: aliceblue;
+    color: brown;
+    padding-top: 10px;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text_input {
+    background-color: aliceblue;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.content_input {
+    background-color: aliceblue;
+}
