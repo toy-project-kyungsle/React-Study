@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Bonus() {
+function State() {
   const [name, setName] = useState(false);
 
   const onClick = () => {
@@ -15,4 +15,4 @@ function Bonus() {
   );
 }
 
-export default Bonus;
+export default State;
