@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 function State() {
   const [name, setName] = useState(false);
@@ -9,7 +9,7 @@ function State() {
 
   return (
     <>
-      <p>{name ? "true" : "false"}</p>
+      <p>{name ? 'true' : 'false'}</p>
       <button onClick={onClick}>go!</button>
     </>
   );

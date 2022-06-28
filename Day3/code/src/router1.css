@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.header img {
+  margin-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: auto;
+}
+
+.register_box {
+  display: flex;
+  border: 1px solid gray;
+  width: 640px;
+  height: 240px;
+  background-color: antiquewhite;
+  margin: auto;
+  padding: 30px;
+}
+
+.eventclick {
+  align-self: flex-end;
+  font-size: medium;
+}
+
+.register {
+  margin-bottom: 5px;
+  font-size: larger;
+}
+
+.box_list {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  border-right: 1px solid gray;
+}
+
+.box_content {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  margin-left: 30px;
+}
+
+.list_title {
+  margin-bottom: 5px;
+  font-size: large;
+}
+
+.list_event {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.nav button {
+  border: none;
+  background-color: white;
+  padding: 5px;
+}
+
+input {
+  border: none;
+  background-color: antiquewhite;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.registerbutton {
+  margin-top: 23px;
+  padding-left: 355px;
+  align-self: flex-end;
+  color: red;
+}
