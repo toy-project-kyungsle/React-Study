@@ -1,10 +1,8 @@
 import React from 'react';
-import State1 from './State1';
-import State2 from './State2';
-import State3 from './State3';
 import './router1.css';
 import Navi1 from './Navi1';
 import { useState, useEffect } from 'react';
+import img from './header_image.png';
 
 export default function Router1() {
   const [Createmode, SetCreatemode] = useState(false);
@@ -24,7 +22,7 @@ export default function Router1() {
   return (
     <>
       <div class="header">
-        <img src="../../header_image.png"></img>
+        <img src={img}></img>
         <p>Together 42</p>
       </div>
       <div class="nav">
