@@ -24,11 +24,7 @@ const Navi1 = () => {
     setGoHome((prev) => !prev);
   };
 
-  return (
-    <div>
-      <button onClick={clickGoHome}>B</button>
-    </div>
-  );
+  return <p onClick={clickGoHome}>B</p>;
 };
 
 export default Navi1;

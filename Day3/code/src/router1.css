@@ -17,13 +17,20 @@
 
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 80px;
   margin-bottom: 60px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-top: 1px solid gainsboro;
   border-bottom: 1px solid gainsboro;
+}
+
+.nav .buttondiv {
+  width: 30px;
+  text-align: center;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 
 .body {
@@ -100,4 +107,33 @@ input {
   padding-left: 355px;
   align-self: flex-end;
   color: red;
+}
+
+li {
+  list-style: none;
+}
+
+.create_list_title {
+  margin-top: 40px;
+  font-size: large;
+  margin-bottom: 40px;
+}
+
+.list_image {
+  width: 700px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image_each {
+  margin: 15px;
+}
+
+.elem_id {
+  text-align: center;
+}
+
+.image_each img {
+  margin-bottom: 5px;
 }
