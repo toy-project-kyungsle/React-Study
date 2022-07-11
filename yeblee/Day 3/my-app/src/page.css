@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+.home--header {
+    margin: 30px;
+    text-align: center;
+
+}
+.header--image {
+    width: 200px;
+}
+.header--title {
+    width: 150px;
+    margin: 20px auto;
+    font-size: 22px;
+}
+
+.home--menu {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    height: 40px;
+    border-top: 1px solid rgba(128, 128, 128, 50%);
+    border-bottom: 1px solid rgba(128, 128, 128, 50%); 
+}
+.menu--link {
+    text-decoration: none;
+    color: black;
+}
+
+.home--main {
+    width: 700px;
+    margin: 0 auto;
+}
+.main--title {
+    font-size: 16px;
+    color: #505050;
+    border-left: 4px solid #a9a9a9;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+.main--wrapper {
+    width: 700px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    background-color: #edeeef;
+    margin-bottom: 70px;
+}
+.main--create {
+    position: absolute;
+    right: 0px;
+    top: -30px;
+}
+.main--create:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.main--list {
+    width: 300px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.main--listEvent:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+}
+.main--eventInfo {
+    width: 400px;
+    border-left: 1px solid rgba(80, 80, 80, 40%);
+    padding: 20px;
+}
+.main--createWapper{
+    width: 400px;
+    border-left: 1px solid #b8b8b8;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.main--btnWapper {
+    display: flex;
+    justify-content: end;
+}
+.main--inputTitle {
+    font-size: 15px;
+    color: #505050;
+    width: 60px;
+    margin-bottom: 10px;
+}
+.main--input {
+    font-size: 13px;
+    color: #505050;
+    height: 24px;
+    width: 350;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #505050;
+
+}
+.main--eventWapper {
+    margin-bottom: 20px;
+}
+.main--textarea {
+    font-size: 13px;
+    color: #505050;
+    width: 350px;
+    border: 1px solid #505050;
+    background: none;
+    appearance: textarea;
+}
+.main--textareaTitle {
+    font-size: 15px;
+    color: #505050;
+}
+.main--button {
+    font-size: 14px;
+    color: rgba(159, 6, 43, 70%);
+    background-color: none;
+    padding: 0;
+    border: none;
+    align-items: flex-start;
+    text-align: center;
+}
+.main--button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
