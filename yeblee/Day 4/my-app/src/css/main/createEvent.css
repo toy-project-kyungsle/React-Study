@@ -1,0 +1,53 @@
+.main--eventInfo {
+    width: 400px;
+    border-left: 1px solid rgba(80, 80, 80, 40%);
+    padding: 20px;
+}
+.main--eventWapper {
+    margin-bottom: 20px;
+}
+.main--inputTitle {
+    font-size: 15px;
+    color: #505050;
+    width: 60px;
+    margin-bottom: 10px;
+}
+.main--input {
+    font-size: 13px;
+    color: #505050;
+    height: 24px;
+    width: 350;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #505050;
+
+}
+.main--textareaTitle {
+    font-size: 15px;
+    color: #505050;
+}
+.main--textarea {
+    font-size: 13px;
+    color: #505050;
+    width: 350px;
+    border: 1px solid #505050;
+    background: none;
+    appearance: textarea;
+}
+.main--btnWapper {
+    display: flex;
+    justify-content: end;
+}
+.main--button {
+    font-size: 14px;
+    color: rgba(159, 6, 43, 70%);
+    background-color: none;
+    padding: 0;
+    border: none;
+    align-items: flex-start;
+    text-align: center;
+}
+.main--button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
