@@ -1,0 +1,28 @@
+.main {
+    width: 700px;
+    margin: 0 auto;
+}
+.main--title {
+    font-size: 16px;
+    color: #505050;
+    border-left: 4px solid #a9a9a9;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+.main--wrapper {
+    width: 700px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    background-color: #edeeef;
+    margin-bottom: 70px;
+}
+.main--create {
+    position: absolute;
+    right: 0px;
+    top: -30px;
+}
+.main--create:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

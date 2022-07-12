@@ -1,0 +1,5 @@
+.event--eventInfo {
+    width: 400px;
+    border-left: 1px solid rgba(80, 80, 80, 40%);
+    padding: 20px;
+}
