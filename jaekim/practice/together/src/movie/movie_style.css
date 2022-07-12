@@ -1,0 +1,181 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction : row;
+}
+
+.nav_box {
+  width: 50%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+}
+
+.nav_button {
+  font-size: 30px;
+}
+
+.body {
+  position: relative;
+  width: 100%;
+  /* background-color: #333; */
+}
+
+.body_position {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.create_button {
+  border : none;
+  background-color: #fff;
+  font-size: larger;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 50%;
+  align-items: flex-end;
+}
+
+.event.h1 {
+  align-items: flex-start;
+}
+
+.event_detail {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  background-color: #ededed;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  margin-right: 10px;
+  flex-direction: column;
+  /* background-color: aliceblue; */
+}
+
+.title_1 {
+  display: flex;
+  justify-content:left;
+}
+
+.title_2 {
+  display: flex;
+  justify-content:right;
+  /* align-items: flex-end; */
+}
+
+textarea.text {
+  border: none;
+  border-bottom: 1px solid #999;
+  resize: none;
+  outline: none;
+}
+
+.events {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: aquamarine; */
+  border-right: 1px solid rgb(97, 92, 92);
+  margin-left: 30px;
+}
+
+.events_title {
+  margin-top: -50px;
+}
+
+.events_contents {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+  margin-top: 10px;
+}
+
+.create {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.create_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: #999; */
+}
+
+.create_intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+  /* background-color: #777; */
+}
+
+/* .create_info {
+
+} */
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.button_style {
+  border : none;
+  background-color: rgb(22, 72, 115);
+  color: #fff;
+  border-radius : 10%;
+  height : auto;
+  width : 70px;
+}
+
+.list_box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.list {
+  width: 50%;
+  height: 500px;
+  flex-direction: column;
+  background-color: rgb(22, 72, 115);
+}
+
+.list_title {
+  background-color: rgb(255, 0, 0);
+  height: auto;
+  width: 100%;
+}
+
+.movie_box {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.movie_info {
+  display: flex;
+  flex-direction: column;
+}

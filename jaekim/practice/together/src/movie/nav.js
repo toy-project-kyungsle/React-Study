@@ -1,29 +1,29 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "./event_style.css";
+import "./movie_style.css";
 
 const Nav = () => {
   const navigate = useNavigate();
-  const [goMovie, setGoMovie] = useState(false);
+  const [goHome, setGoHome] = useState(false);
 
   useEffect(() => {
-      if (goMovie) {
-        navigate("/movie");
+      if (goHome) {
+        navigate("/");
       }
-    }, [goMovie, navigate]
+    }, [goHome, navigate]
   )
 
-  const clickGoMovie = () => {
-    setGoMovie((prev) => !prev);
+  const clickGoHome = () => {
+    setGoHome((prev) => !prev);
   }
   
   return (
     <>
         <div className="nav">
           <div className="nav_box">
-            <span className="nav_button" onClick={clickGoMovie}>A</span>
+            <span className="nav_button">A</span>
           </div>
-          <div className="nav_box">
+          <div className="nav_box" onClick={clickGoHome}>
             <span className="nav_button">B - goHome</span>
           </div>
         </div>

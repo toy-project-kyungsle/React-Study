@@ -1,5 +1,5 @@
 import React from "react";
-import "./event_style.css";
+import "./movie_style.css";
 
 function Intro(props) {
 

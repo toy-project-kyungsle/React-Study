@@ -11,7 +11,6 @@ function Footer() {
   const picture = [1, 2, 3, 4, 5, 6];
   const names = ["tkim", "kyungsle", "jimin", "seunam", "jaekim", "seongyle"];
   
-
   const images = picture.map(image => {
       return <img key={image} src={require(`../profile ${image}.png`)} className="profile" alt=""/>
   });
