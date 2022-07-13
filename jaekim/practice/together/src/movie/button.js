@@ -9,7 +9,6 @@ function Button() {
   return (
     <>
       <div className="button">
-        <div></div>
         <button onClick={onClick}  className="button_style">친바 생성</button>
       </div>
     </>
