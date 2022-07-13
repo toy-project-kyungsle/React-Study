@@ -11,8 +11,8 @@ export default function Main() {
     <>
       <Header />
       <Nav />
-      <APPLY footer={footer} setFooter={setFooter}/>
-      {footer ? <FOOTER /> : null}
+      <APPLY setFooter={setFooter}/>
+      <FOOTER footer={footer}/>
     </>
   );
 }

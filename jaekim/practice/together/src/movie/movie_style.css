@@ -158,7 +158,6 @@ textarea.text {
 
 .list {
   width: 50%;
-  height: 500px;
   flex-direction: column;
   background-color: rgb(22, 72, 115);
 }
@@ -170,9 +169,9 @@ textarea.text {
 }
 
 .movie_box {
-  display: flex;
-  flex-direction: row;
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
 }
 
 .movie_info {

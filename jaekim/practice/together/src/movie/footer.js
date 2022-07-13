@@ -2,18 +2,18 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./movie_style.css";
 
-function Footer() {
+function Footer({footer}) {
   const [movieArr, setMovieArr] = useState(null);
-  const getMovie = () => {
+  const getMovie = (x) => {
     axios
-      .get("https://yts.mx/api/v2/list_movies.json?page=1")
+      .get(`https://yts.mx/api/v2/list_movies.json?page=${footer}`)
       .then((res) => res.data.data.movies)
       .then((res2) => setMovieArr(res2));
   };
 
   useEffect(() => {
     getMovie();
-  }, []);
+  }, [footer]);
 
   return (
     <>
