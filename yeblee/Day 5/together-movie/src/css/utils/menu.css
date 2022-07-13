@@ -1,0 +1,16 @@
+.home--menu {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    height: 40px;
+    border-top: 1px solid rgba(128, 128, 128, 50%);
+    border-bottom: 1px solid rgba(128, 128, 128, 50%); 
+}
+.menu--link {
+    text-decoration: none;
+    color: black;
+}

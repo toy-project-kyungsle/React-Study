@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+.main--list {
+    width: 300px;
+    padding: 20px;
+    /* overflow-y: scroll; */
+}
+.main--listEvent:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+}
