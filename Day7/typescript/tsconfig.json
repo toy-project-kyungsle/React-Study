@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true, //모든 imports에 대한 namespace 생성을 통해 CommonJS와 ES Modules 간의 상호 운용성이 생기게할 지 여부,  
+    // 'allowSyntheticDefaultImports'를 암시적으로 승인합니다.
+    "jsx": "react", //JSX 코드 생성 설정
+  }
+}
