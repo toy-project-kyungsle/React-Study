@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Header from '../utils';
 import Apply from './apply';
 import AttendeeList from './attendeeList';
