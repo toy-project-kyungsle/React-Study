@@ -1,3 +1,8 @@
 .modal {
+    z-index: 1000;
+    width: 300px;
+    height: 300px;
     position: absolute;
+    position:fixed;
+    background-color: #a9a9a9;
 }

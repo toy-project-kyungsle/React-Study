@@ -14,3 +14,13 @@
     text-decoration: none;
     color: black;
 }
+.menu--button {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+}
+.menu--button :hover{
+    cursor: pointer;
+}

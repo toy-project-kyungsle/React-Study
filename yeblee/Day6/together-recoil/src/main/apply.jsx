@@ -8,7 +8,7 @@ function Apply() {
     const [clickEvent, setClickEvent] = useState(false);
     
     const onClick = () => {
-        setClickEvent((clickEvent) => !clickEvent);
+        setClickEvent((clickState) => !clickState);
     };
 
     return (

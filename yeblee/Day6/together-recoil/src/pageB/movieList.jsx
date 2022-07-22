@@ -4,7 +4,7 @@ import Page from "../atom/globalMovieState";
 import "../css/pageB/movieList.css";
 
 function MovieList() {
-     const SetPage = useSetRecoilState(Page);
+    const SetPage = useSetRecoilState(Page);
     const onMovie = (num) => {
         SetPage(num);
     };
