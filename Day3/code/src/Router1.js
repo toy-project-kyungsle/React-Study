@@ -6,11 +6,22 @@ import List from './List.js';
 
 export default function Router1() {
   const [ListState, setListState] = useState(false);
+  const [PageNumber, SetPageNumber] = useState(0);
   return (
     <>
       <Header />
-      <Apply ListState={ListState} setListState={setListState} />
-      <List ListState={ListState} setListState={setListState} />
+      <Apply
+        ListState={ListState}
+        setListState={setListState}
+        PageNumber={PageNumber}
+        SetPageNumber={SetPageNumber}
+      />
+      <List
+        ListState={ListState}
+        setListState={setListState}
+        PageNumber={PageNumber}
+        SetPageNumber={SetPageNumber}
+      />
     </>
   );
 }

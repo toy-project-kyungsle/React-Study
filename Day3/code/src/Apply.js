@@ -2,14 +2,15 @@ import React from 'react';
 import './router1.css';
 import { useState, useEffect } from 'react';
 
-function Apply({ ListState, setListState }) {
+function Apply({ ListState, setListState, PageNumber, SetPageNumber }) {
   const [Createmode, SetCreatemode] = useState(false);
 
   const createeventlist = () => {
     SetCreatemode((prev) => !prev);
   };
 
-  const makelistvisible = () => {
+  const makelistvisible = (num) => {
+    SetPageNumber(num);
     setListState((prev) => !prev);
   };
 
@@ -30,8 +31,10 @@ function Apply({ ListState, setListState }) {
         <div className="register_box">
           <div className="box_list">
             <li class="list_title">신청가능 목록</li>
-            <li class="list_event">가상 이벤트 1</li>
-            <li class="list_event" onClick={makelistvisible}>
+            <li class="list_event" onClick={(event) => makelistvisible(1)}>
+              가상 이벤트 1
+            </li>
+            <li class="list_event" onClick={(event) => makelistvisible(2)}>
               가상 이벤트 2
             </li>
             <li class="list_event">가상 이벤트 3</li>
