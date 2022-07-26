@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './router1.css';
 import axios from 'axios';
+import { useRecoilState } from 'recoil';
+import { ListState, PageNumber } from './ListState.js';
+
 //import profile1 from './profile 1.png';
 //import profile2 from './profile 2.png';
 //import profile3 from './profile 3.png';
@@ -40,8 +43,10 @@ import axios from 'axios';
 //  );
 //}
 
-function List({ ListState, setListState, PageNumber, SetPageNumber }) {
+function List() {
   const [movieArr, setMovieArr] = useState(null);
+  const [listState, setListState] = useRecoilState(ListState);
+  const [pageNumber, SetPageNumber] = useRecoilState(PageNumber);
 
   const getMovie = () => {
     axios
@@ -55,11 +60,11 @@ function List({ ListState, setListState, PageNumber, SetPageNumber }) {
 
   useEffect(() => {
     getMovie();
-  }, [PageNumber]);
+  }, [pageNumber]);
 
   return (
     <div class="movie">
-      {!ListState ? (
+      {!listState ? (
         <></>
       ) : movieArr ? (
         movieArr.map((elem) => (

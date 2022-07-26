@@ -1,9 +1,13 @@
 import React from 'react';
 import './router1.css';
 import { useState, useEffect } from 'react';
+import { useRecoilState } from 'recoil';
+import { ListState, PageNumber } from './ListState.js';
 
-function Apply({ ListState, setListState, PageNumber, SetPageNumber }) {
+function Apply() {
   const [Createmode, SetCreatemode] = useState(false);
+  const [listState, setListState] = useRecoilState(ListState);
+  const [pageNumber, SetPageNumber] = useRecoilState(PageNumber);
 
   const createeventlist = () => {
     SetCreatemode((prev) => !prev);

@@ -3,25 +3,18 @@ import './router1.css';
 import Header from './Header.js';
 import Apply from './Apply.js';
 import List from './List.js';
+import { useRecoilValue } from 'recoil';
+import { ListState, PageNumber } from './ListState.js';
 
 export default function Router1() {
-  const [ListState, setListState] = useState(false);
-  const [PageNumber, SetPageNumber] = useState(0);
+  const listState = useRecoilValue(ListState);
+  const pageNumber = useRecoilValue(PageNumber);
+
   return (
     <>
       <Header />
-      <Apply
-        ListState={ListState}
-        setListState={setListState}
-        PageNumber={PageNumber}
-        SetPageNumber={SetPageNumber}
-      />
-      <List
-        ListState={ListState}
-        setListState={setListState}
-        PageNumber={PageNumber}
-        SetPageNumber={SetPageNumber}
-      />
+      <Apply />
+      <List />
     </>
   );
 }
